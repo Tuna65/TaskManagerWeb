@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="wrapper">
+            <h2>Task Manager Web</h2>
+            <div class="inner">
+                <div class="input">
+                    <input type="text" class="title" placeholder="Title">
+                    <input type="datetime-local" class="time" >
+                    <input type="text" class="content" placeholder="Content">
+                </div>
+                <button class="inner__button-add"><i class="fa-solid fa-plus"></i></button>
+                <button class="inner__button-edit"><i class="fa-solid fa-pen"></i></button>
+            </div>
+
+            <h3>Today's Tasks</h3>
+            <ul class="ul">
+
+            </ul>
+            <h3>Completed</h3>
+            <div class="completed">
+                <!-- <div class="completed__tass">
+                    <p>wdadw <i class="fa-solid fa-circle-check completed__tass-i"></i></p>
+                    <span class="li__time">
+                        <i class="fa-solid fa-clock"></i>
+                        time completed
+                    </span>
+                    <text class="li__content">${list.contents}</text>
+                    <button class="li__button-del" >                     
+                        <i class="fa-solid fa-trash-can li__icon-del"></i>
+                    </button>
+                </div> -->
+            </div>
+            
+
+            <div class="footer">
+                <span>You have <span class="num"></span> task</span>
+                <button class="footer__button "><i class="fa-solid fa-trash-can"></i>Clear ALL task</button>
+            </div>
+            <span class="note">Task Manager Web by Tuna65</span>
+            
+        </div>
+    </div>
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>
